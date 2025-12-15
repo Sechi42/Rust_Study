@@ -1,0 +1,25 @@
+# Ignorar rust-book-listings
+rust-book-listings/
+
+# Archivos de compilación de Rust
+target/
+**/*.rs.bk
+*.pdb
+
+# Archivos generados por Cargo
+Cargo.lock
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ejecutables
+*.exe
+*.out
